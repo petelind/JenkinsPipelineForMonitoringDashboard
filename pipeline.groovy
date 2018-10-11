@@ -64,5 +64,5 @@ node {
     // Your compose file is has a volume mapped to this build, 
     sh 'docker-compose up -d --build'
     
-    notify '[ SUCCESS ] Dashboard ${env.BUILD_DISPLAY_NAME} is up and running at http://dashboard.project_orchard.eserv.nyu.edu:3000'
+    notify '[ SUCCESS ] Dashboard ${env.BUILD_DISPLAY_NAME} is up and running at staging'
 }
